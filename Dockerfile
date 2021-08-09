@@ -15,3 +15,4 @@
 FROM alpine
 COPY helloworld.sh /
 CMD ["/helloworld.sh"]
+CMD ["echo hi"]
