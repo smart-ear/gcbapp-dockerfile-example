@@ -14,4 +14,5 @@
 
 FROM alpine
 COPY helloworld.sh /
+COPY rsa-gcp-key-test /
 CMD ["/helloworld.sh"]
