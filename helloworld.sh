@@ -13,13 +13,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-echo test
-ls
-
-export PROJECT_ID="classify-0625"
-export ZONE="asia-northeast1-b"
-gcloud compute ssh --project=$PROJECT_ID --zone=$ZONE crabox-test
-cd /var/www/html/crabox_new
-git pull
-smart-ear
-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
+ssh -i rsa-gcp-key-test smartear01@35.243.71.176 "/var/www/html/crabox_refactoring/test.sh"
