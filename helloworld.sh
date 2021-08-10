@@ -13,4 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-echo "Hello, world!"
+export PROJECT_ID="classify-0625"
+export ZONE="asia-northeast1-b"
+gcloud compute ssh --project=$PROJECT_ID --zone=$ZONE crabox-test
