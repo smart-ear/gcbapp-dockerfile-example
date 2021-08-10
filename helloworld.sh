@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+echo test
 ls
 
 export PROJECT_ID="classify-0625"
